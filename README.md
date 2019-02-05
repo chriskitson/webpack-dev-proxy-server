@@ -6,8 +6,6 @@ This was created to simulate a local development environment inside a local k8s 
 
 *This should not be used in production, but you already knew that, right?*
 
-There are also several other ways to achieve this including ngnix rewrites.
-
 ## Install
 
 Install dependencies using `npm install`.
