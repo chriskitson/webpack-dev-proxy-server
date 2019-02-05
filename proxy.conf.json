@@ -1,0 +1,24 @@
+{
+
+  "/example": {
+    "target": "https://en.wikipedia.org/wiki/URL",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+
+  "/another": {
+    "target": "https://www.amazon.co.uk",
+    "secure": false,
+    "pathRewrite": {
+      "/another": "/somewhere"
+    },
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+
+  "/": {
+    "target": "http://www.google.co.uk"
+  }
+
+}
